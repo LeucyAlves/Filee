@@ -68,7 +68,7 @@ public sealed class AppSettings
 
     public int SchemaVersion { get; set; } = CurrentSchemaVersion;
 
-    /// <summary><c>"auto"</c>, <c>"en"</c>, <c>"ko"</c> or <c>"zh-CN"</c>.</summary>
+    /// <summary><c>"auto"</c>, <c>"en"</c>, <c>"ko"</c>, <c>"zh-CN"</c> or <c>"pt-BR"</c>.</summary>
     public string Language { get; set; } = "auto";
 
     public bool StartWithSystem { get; set; } = true;
